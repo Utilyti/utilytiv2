@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/mobile.css">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <title>Utilyti | Formacion Digital</title>
+    <title>Utilyti | Contacto</title>
 </head>
 <body id="home">
     <!--NAV BAR GENERAL-->
@@ -17,16 +17,16 @@
         <input type="checkbox" class="toggler">
         <div class="hamburger"><div></div></div>
         <div class="menu">
-            <a href="#home"><img src="img/logo_nuevo.png" alt="Utilyti" class="logo_standard"></a>
+            <a href="index.html"><img src="img/logo_nuevo.png" alt="Utilyti" class="logo_standard"></a>
             <div>
                 <div>
                     <ul>
-                        <li><a href="#courses">Cursos</a></li>
+                        <li><a href="#cursos">Cursos</a></li>
                         <li><a href="#empresas">Formacion para Empresas</a></li>
                         <li><a href="#servicios">Servicios</a></li>
                         <li><a href="blog.html">Blog</a></li>
                         <li><a href="#equipo">Equipo</a></li>
-                        <li><a href="contact.html">Contacto</a></li>
+                        <li><a href="contact.html" class="current">Contacto</a></li>
                         <li><a href="#search"><i class="fas fa-search"></i></a></li>
                     </ul>
                 </div>
@@ -34,30 +34,58 @@
         </div>
     </nav>
 
-    <!--HEADER -->
-    <header id="showcase">
-        <div class="container showcase-container">
-            <h1>Cursos y Consultorias en Gestion de Proyectos</h1>
-            <p>Conseguimos que los profesionales de la construccion obtengan resultados eficaces a traves de la tecnologia y metodologias eficaces</p>
-            <a href="" class="btn"><h3>Especializate con Profesionales</h3></a>
+    <!--SECTION A: CONTACT FORM-->
+
+    <section id="contact-a" class="text-center py-3">
+        <div class="container">
+            <h2 class="section-title">Contactanos</h2>
+            <div class="bottom-line"></div>
+            <p class="lead">Dejanos tu consulta relevante a cualquier curso</p>
+            <form>
+                <div class="text-fields">
+                    <input type="text" class="text-input name-input" placeholder="Name">
+                    <input type="text" class="text-input subject-input" placeholder="Subject">
+                    <input type="email" class="text-input email-input" placeholder="Email">
+                    <input type="text" class="text-input phone-input" placeholder="Phone Number">
+                    <textarea class="text-input message-input" placeholder="Enter Message"></textarea>
+                </div>
+                <button type="submit" class="btn-dark">Enviar</button>
+            </form>
         </div>
-
-    </header>
-
-    <!--COURSES-->
-    <section id="courses" class="courses flex-grid section-padding">
-        <header class="section-header">
-            <h2>Cursos BIM</h2>
-            <p>Cursos de Modelamiento, Seguimiento y Control de modelos digitales</p>
-        </header>
-        <div class="row">
-            <a href="pages/curso1.html"><img src="img/Curso_BIM_Mod_Estructuras.png" alt=""></a>
-            <a href="pages/curso2.html"><img src="img/Curso_BIM_Mod_Arquitectura.png" alt=""></a>
-            <a href="pages/curso3.html"><img src="img/Curso_BIM_Mod_MEP.png" alt=""></a>
-            <a href="pages/curso4.html"><img src="img/Curso_BIM_Mng_SegyCont.png" alt=""></a>
-        </div>
-
     </section>
+
+    <!--SECTION B: CONTACT INFO-->
+
+    <section id="contact-b" class="py-3 bg-dark">
+      <div class="container">
+        <div class="contact-info">
+          <div>
+            <i class="fas fa-envelope fa-2x"></i>
+            <h3>Email</h3>
+            <p>contacto@utilyti.com</p>
+          </div>
+          <div>
+            <i class="fas fa-phone fa-2x"></i>
+            <h3>Teléfono</h3>
+            <p>+51987880394</p>
+          </div>
+          <div>
+            <i class="fas fa-address-card fa-2x"></i>
+            <h3>Dirección</h3>
+            <p>Av. Caminos del Inca 1640</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--SECTION C: TAGLINE-->
+
+    <section id="contact-c" class="bg-main py-4">
+      <div class="container">
+        <h1>La EDUCACIÓN no debe de parar!</h1>
+      </div>
+    </section>
+
 
     <!--FOOTER-->
     <footer id="footer" class="py-2">
@@ -93,7 +121,7 @@
             <div>
                 <h3>¿QUIERES RECIBIR LA NEWSLETTER?</h3>
                 <p>Se el primero en recibir las ultimas novedades sobre Utilyti.</p>
-                <a href="contact.html" class="btn bg-primary btn-block">Unete Ahora</a>   
+                
             </div>
             <div>
                 <p>
