@@ -24,6 +24,8 @@
         height: 3rem;
     }
 
+    /*C0NTACT*/
+
     .container {
         max-width: 1280px;
         padding: 2rem 1.5rem;
@@ -246,6 +248,26 @@
         font-size: 2rem;
     }
     
+    /*C0NTACT*/
+
+    #contact-a .text-fields {
+        grid-template-areas: 'name' 'subject' 'email' 'phone' 'message'; }
+    
+    #contact-b .contact-info,.items {
+          grid-template-columns: 1fr; }
+
+    #contact-b div {
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px #555 solid; }
+    
+    #contact-b div:last-child {
+        border: none;
+        margin-bottom: 0;
+        padding-bottom: 0; }
+
+    #contact-c h1 {
+        font-size: 2rem; }
 
     /* FOOTER */
 

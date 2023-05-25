@@ -41,13 +41,16 @@
             <h2 class="section-title">Contactanos</h2>
             <div class="bottom-line"></div>
             <p class="lead">Dejanos tu consulta relevante a cualquier curso</p>
-            <form>
+            <form method="POST" data-netlify="true" data-netlify-recaptcha="true">
                 <div class="text-fields">
-                    <input type="text" class="text-input name-input" placeholder="Name">
-                    <input type="text" class="text-input subject-input" placeholder="Subject">
-                    <input type="email" class="text-input email-input" placeholder="Email">
-                    <input type="text" class="text-input phone-input" placeholder="Phone Number">
-                    <textarea class="text-input message-input" placeholder="Enter Message"></textarea>
+                    <input type="text" class="text-input name-input" placeholder="Nombre" name="name">
+                    <input type="text" class="text-input subject-input" placeholder="Tema" name="subject">
+                    <input type="email" class="text-input email-input" placeholder="Email" name="email">
+                    <input type="text" class="text-input phone-input" placeholder="Número telefonico" name="phone">
+                    <textarea class="text-input message-input" placeholder="Escriba su mensaje" name="message"></textarea>
+                    <div class="my-2">
+                        <div data-netlify-recaptcha="true"></div>
+                    </div>
                 </div>
                 <button type="submit" class="btn-dark">Enviar</button>
             </form>
