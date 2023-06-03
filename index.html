@@ -6,58 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <title>Utilyti | Formacion Digital</title>
 </head>
-<body id="home">
-    <!--NAV BAR GENERAL-->
-    <nav id="navbar" class="navbar">
-        <input type="checkbox" class="toggler">
-        <div class="hamburger"><div></div></div>
-        <div class="menu">
-            <a href="#home"><img src="img/logo_nuevo.png" alt="Utilyti" class="logo_standard"></a>
-            <div>
-                <div>
-                    <ul>
-                        <li><a href="#courses">Cursos</a></li>
-                        <li><a href="#empresas">Formacion para Empresas</a></li>
-                        <li><a href="#servicios">Servicios</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="#equipo">Equipo</a></li>
-                        <li><a href="contact.html">Contacto</a></li>
-                        <li><a href="#search"><i class="fas fa-search"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </nav>
+<body>
+    <header id="headerToggle">
+        <a href="#"><img id="logoMenu" class="logo" src="img/logo_nuevo.png" alt="Logo"></a>
+        <nav id="nav-menu" class="nav">
+            <a href="index.html"><img class="logoCorto" src="img/logo_nuevo_blanco.png" alt=""></a>
+            <ul class="nav-list">
+                <li><a href="#courses" class="nav-link">Cursos</a></li>
+                <li><a href="#" class="nav-link">Formacion para Empresas</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
+                <li><a href="contact.html" class="nav-link">Contacto</a></li>
+                <li><a href="#" class="nav-link">Intranet</a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=51987880394&text=Hola!%20te%20comunicaras%20con%20la%20red%20de%20utilyti" class="nav-link"><i class="fa-brands fa-whatsapp"></i></a></li>
+                
+            </ul>
+        </nav>
+        <button id="hamburger" class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+    </header>
 
     <!--HEADER -->
-    <header id="showcase">
+
+    <section id="showcase">
         <div class="container showcase-container">
             <h1>Cursos y Consultorias en Gestion de Proyectos</h1>
             <p>Conseguimos que los profesionales de la construccion obtengan resultados eficaces a traves de la tecnologia y metodologias eficaces</p>
             <a href="contact.html" class="btn"><h3>Especializate con Profesionales</h3></a>
         </div>
-
-    </header>
-
-    <!--COURSES-->
-    <section id="courses" class="courses flex-grid section-padding">
-        <header class="section-header">
-            <h2>Cursos BIM</h2>
-            <p>Cursos de Modelamiento, Seguimiento y Control de modelos digitales</p>
-        </header>
-        <div class="row">
-            <a href="pages/curso1.html"><img src="img/Curso_BIM_Mod_Estructuras.png" alt=""></a>
-            <a href="pages/curso2.html"><img src="img/Curso_BIM_Mod_Arquitectura.png" alt=""></a>
-            <a href="pages/curso3.html"><img src="img/Curso_BIM_Mod_MEP.png" alt=""></a>
-            <a href="pages/curso4.html"><img src="img/Curso_BIM_Mng_SegyCont.png" alt=""></a>
-        </div>
-
     </section>
+
+        <!--COURSES-->
+        <section id="courses" class="courses flex-grid section-padding">
+            <header class="section-header">
+                <h2>Cursos</h2>
+                <p>Cursos de Modelamiento, Seguimiento y Control de modelos digitales</p>
+            </header>
+            <div class="row">
+                <a href="./courses/curso1.html"><img src="img/Curso_BIM_Mod_Estructuras.png" alt=""></a>
+                <a href="./courses/curso2.html"><img src="img/Curso_BIM_Mod_Arquitectura.png" alt=""></a>
+                <a href="./courses/curso3.html"><img src="img/Curso_BIM_Mod_MEP.png" alt=""></a>
+                <a href="./courses/curso4.html"><img src="img/Curso_BIM_Mng_SegyCont.png" alt=""></a>
+            </div>
+    
+        </section>
+    
 
     <!--FOOTER-->
     <footer id="footer" class="py-2">
@@ -104,7 +104,9 @@
         
     </footer>
 
-    
-    
+
+
+
+    <script src="script.js"></script>
 </body>
 </html>

@@ -4,35 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- for Google -->
+    <meta name="description" content="Escala y Mejora con los cursos certificados 100% online para profesionales de la industria de la Construccion">
+    <meta name="keywords" content="utilyti">
+    <meta name="author" content="utilyti">
+    <meta name="copyright" content="utilyti">
+    <meta name="application-name" content="utilyti">
+    <!-- Styles -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="../css/styles.css">
-    <link rel="stylesheet" href="../css/mobile.css">
-    <title>Utilyti | Blog</title>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../mobile.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
+    <title>Utilyti | Formacion Digital</title>
 </head>
 <body>
-    <!--NAV BAR GENERAL-->
-    <nav id="navbar" class="navbar">
-        <input type="checkbox" class="toggler">
-        <div class="hamburger"><div></div></div>
-        <div class="menu">
-            <a href="../index.html"><img src="../img/logo_nuevo.png" alt="Utilyti" class="logo_standard"></a>
-            <div>
-                <div>
-                    <ul>
-                        <li><a href="#cursos">Cursos</a></li>
-                        <li><a href="#empresas">Formacion para Empresas</a></li>
-                        <li><a href="#servicios">Servicios</a></li>
-                        <li><a href="../blog.html">Blog</a></li>
-                        <li><a href="#equipo">Equipo</a></li>
-                        <li><a href="#contacto">Contacto</a></li>
-                        <li><a href="#search"><i class="fas fa-search"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        
-    </nav>
+    <header id="headerToggle">
+        <a href="../index.html"><img id="logoMenu" class="logo" src="../img/logo_nuevo.png" alt="Logo"></a>
+        <nav id="nav-menu" class="nav">
+            <a href="../index.html"><img class="logoCorto" src="../img/logo_nuevo_blanco.png" alt=""></a>
+            <ul class="nav-list">
+                <li><a href="../index.html" class="nav-link">Cursos</a></li>
+                <li><a href="#" class="nav-link">Formacion para Empresas</a></li>
+                <li><a href="../blog.html" class="nav-link">Blog</a></li>
+                <li><a href="../contact.html" class="nav-link">Contacto</a></li>
+                <li><a href="#" class="nav-link">Intranet</a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=51987880394&text=Hola!%20te%20comunicaras%20con%20la%20red%20de%20utilyti" class="nav-link"><i class="fa-brands fa-whatsapp"></i></a></li>
+                
+            </ul>
+        </nav>
+        <button id="hamburger" class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+    </header>
 
+   
     <!--SHOWCASE-->
 
     <header id="blog_showcase">
@@ -99,25 +107,22 @@
                 <aside id="categories" class="card">
                     <h2>Categorias</h2>
                     <ul class="list">
-                        <li><a href=""><i class="fas fa-chevron-right"></i> BIM</a></li>
-                        <li><a href=""><i class="fas fa-chevron-right"></i> Lean Construction</a></li>
-                        <li><a href=""><i class="fas fa-chevron-right"></i> Realidad Virtual</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> BIM</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Lean Construction</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Realidad Virtual</a></li>
                     </ul>
                 </aside>
                 <aside class="card bg-primary">
                     <h2>Unete a Nuestro Club</h2>
                     <p>Registrate para poder tener acceso a las novedades</p>
-                    <a href="#" class="btn btn-dark btn-block">Unete Ahora</a>    
+                    <a href="../contact.html" class="btn btn-dark btn-block">Unete Ahora</a>    
                 </aside>
             </div>
         </div>
     </section>
 
-
-
-     <!--FOOTER-->
-    
-     <footer id="footer" class="py-2">
+    <!--FOOTER-->
+    <footer id="footer" class="py-2">
         <div class="footer-container footer-content">
             <div>
                 <img src="../img/logo_nuevo.png" alt="Utility_dark">
@@ -133,7 +138,7 @@
                 <ul class="list">
                     <li><a href="#">Cursos</a></li>
                     <li><a href="#">Servicios</a></li>
-                    <li><a href="#">Blog</a></li>
+                    <li><a href="../blog.html">Blog</a></li>
                     <li><a href="#">Equipo</a></li>
                     <li><a href="#">Recursos</a></li>
                 </ul>
@@ -150,7 +155,7 @@
             <div>
                 <h3>¿QUIERES RECIBIR LA NEWSLETTER?</h3>
                 <p>Se el primero en recibir las ultimas novedades sobre Utilyti.</p>
-                <a href="../contact.html" class="btn bg-primary btn-block">Unete Ahora</a>
+                <a href="../contact.html" class="btn bg-primary btn-block">Unete Ahora</a>   
             </div>
             <div>
                 <p>
@@ -161,7 +166,9 @@
         
     </footer>
 
-    
 
+
+
+    <script src="../script.js"></script>
 </body>
 </html>
