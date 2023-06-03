@@ -163,6 +163,28 @@ header {
     background-color: #1c1c1c;
 }
 
+.btn-wsp {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    bottom: 30px;
+    right: 30px;
+    background: #0df053;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 50px;
+    box-shadow: 0px 1px 10px rgba(red, green, blue, 0.3);
+    z-index: 100;
+}
+
+.btn-wsp:hover{
+    text-decoration: none;
+    color: #0df053;
+    background: #fff;
+}
+
 /*--HEADER --*/
 
 .container {
