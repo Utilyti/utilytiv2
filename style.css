@@ -147,6 +147,10 @@ header {
     margin: 0 0.4rem;
 }
 
+.nav-list li a.intranet {
+    color: #fff;
+}
+
 
 .hamburger,
 .logoCorto {
