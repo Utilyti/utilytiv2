@@ -208,7 +208,7 @@ header {
 
 #showcase:before {
     content: '';
-    background: url('../img/perfil.jpg') no-repeat center center/cover;
+    background: url('https://perfil01utilyti.s3.us-east-1.amazonaws.com/perfil.jpg?response-content-disposition=inline&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXNhLWVhc3QtMSJHMEUCIQClh4HHc%2FjmU7e5nDCGX%2B0rlXtq0H2CKaudY8qWpKIc%2BwIgHfZekXlCGYMm5biJN0MQVVhPk9aTz6kLsZR5ELP4tIgq5AIIPxAAGgw2NjczNzI4NDc4NzYiDLSovo9ObswYknDWWyrBAlH8AedUlQnTyupmP7%2B3u3349sgzUUs5YK4IVgTCWzyYCOoIPJT1FkhR%2FtNOP0I6mUzyQh4SLa%2BNBZR3UHULkReqxym8CktsTHY2TiKPcgQ37OfFaBYcCIgmCYqsU6WUrXBsHZLNb6VTw1HUFCxZ2oHeFAyns9dzya%2FFUBU2YttF%2BRYcpTYjahtIo%2FXf3sTQ3SJE3aRIwUeVaViWmzxm9cQUuQ41nJQ4ynejEO9g3vsii%2BCJH6ZIVbZLMWXHAMbs5aE5CZxUG4b6Ta4bHNMtwJzrXiG%2BEzDxpWIzu6bO1YdbksnAp1wdGz%2FUqmGHifj1HjFP3fTAsV9MSYe2OFxXJv7RN7bN%2FZTQ6%2FdAQt96u4AMkH1BhSkJK6YzYKk2whvX%2FVTdZyaohhketax6%2FHHRrnIfyBjdsu%2Fu3%2FvOCzg%2B69jGrzC%2FxOSkBjqzAp%2BNeCFykVPrVmocpS6PeqKO80EcMTwMFJBNeTlks11RtYVCSx%2FZLI25S%2BV4mb1Vyfwey5rXls%2BFi0dmWwdB1ENBwjshCF%2BlmC2R9ObkfqJTGYXyGiq%2BlZqspzpCT5JXpJ59NZsxuCC03UCeREVeYYmthz1SxUntKvFVtnqMhKwPFyzplAjBLgSmfTnK%2FrD4TjKxxm89Ekl8bewwEkgiXR9IFCZeOVGNFlKS%2Byb8g9wkm61vG3%2BbTf8IlLsU%2FEQCkIb9lLG4zkr3vtMQ%2F%2B9nej95Fm0K21dQovjsGxi1IWGrPYCvOdMFBFLPelm3DUTqy65jw0Rjv%2B%2FrNfwPrBEuPchZt5uabh1EgPkZg%2BRKcMZSMlJwckuBwfnBrNh79hr22Iq1K0OzktCB%2F212TENwG1tDW2k%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230626T060928Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAZWYUFQMCOOWBOJ7S%2F20230626%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=bf80a3a5c3acc85ab97dd8d34ac048e8bc3761861b23d1d285c07098ddd5efb3') no-repeat center center/cover;
     position: absolute;
     top: 0;
     left: 0;
